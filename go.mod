@@ -1,1 +1,1 @@
-module github.com/gowxw/know
+module github.com/gowxw/know/v3
