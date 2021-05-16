@@ -1,4 +1,4 @@
-package dorequest
+package know
 
 import (
 	"crypto/tls"
@@ -14,7 +14,7 @@ import (
 	"time"
 )
 
-const version = "3.0.0"
+const version = "3.0.935"
 
 func DoRequest(urlString, urlMethod, body, host string,
 	timeout time.Duration, w io.Writer,
