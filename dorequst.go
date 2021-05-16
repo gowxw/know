@@ -14,7 +14,7 @@ import (
 	"time"
 )
 
-const version = "1.0.0"
+const version = "3.0.0"
 
 func DoRequest(urlString, urlMethod, body, host string,
 	timeout time.Duration, w io.Writer,
