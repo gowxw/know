@@ -14,7 +14,8 @@ import (
 	"time"
 )
 
-const Version = "3.0.999"
+const Version = "3.1.001"
+//pseudo-version test
 
 func DoRequest(urlString, urlMethod, body, host string,
 	timeout time.Duration, w io.Writer,
